@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc1152a2-8e26-4bb6-af1d-43264b91113e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/c_version/kaprekarUtils.c" beforeDir="false" afterPath="$PROJECT_DIR$/c_version/kaprekarUtils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +13,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="317">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/AutomatedAdHocTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/TestKaprekarUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -39,12 +57,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarUtils.java" />
         <option value="$PROJECT_DIR$/c_version/kaprekarUtils.c" />
+        <option value="$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarUtils.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -60,11 +78,6 @@
             <path>
               <item name="KaprekarProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitHub Intro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaprekarProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHub Intro" type="462c0819:PsiDirectoryNode" />
-              <item name="c_version" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KaprekarProject" type="b2602c69:ProjectViewProjectNode" />
@@ -95,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568245687920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568258756603" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -112,11 +125,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="KaprekarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unl.cse.kaprekar.KaprekarDemo" />
+  <component name="RunManager" selected="JUnit.TestKaprekarUtils">
+    <configuration name="AutomatedAdHocTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unl.cse.kaprekar.AutomatedAdHocTest" />
       <module name="KaprekarProject" />
-      <option name="PROGRAM_PARAMETERS" value="297" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="unl.cse.kaprekar.*" />
@@ -127,8 +139,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KaprekarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unl.cse.kaprekar.KaprekarDemo" />
+      <module name="KaprekarProject" />
+      <option name="PROGRAM_PARAMETERS" value="77778" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unl.cse.kaprekar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKaprekarUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KaprekarProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unl.cse.kaprekar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unl.cse.kaprekar" />
+      <option name="MAIN_CLASS_NAME" value="unl.cse.kaprekar.TestKaprekarUtils" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.KaprekarDemo" />
+      <item itemvalue="Application.AutomatedAdHocTest" />
+      <item itemvalue="JUnit.TestKaprekarUtils" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestKaprekarUtils" />
+        <item itemvalue="Application.AutomatedAdHocTest" />
         <item itemvalue="Application.KaprekarDemo" />
       </list>
     </recent_temporary>
@@ -143,15 +190,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568243600095</updated>
-      <workItem from="1568243606488" duration="2648000" />
+      <workItem from="1568243606488" duration="2915000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestKaprekarUtils - 2019.09.11 at 22h 20m 16s.xml">
+      <configuration name="TestKaprekarUtils" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2648000" />
+    <option name="totallyTimeSpent" value="2915000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1087" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -196,17 +248,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/TestKaprekarUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="204">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/AutomatedAdHocTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="317">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unl/cse/kaprekar/KaprekarDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
